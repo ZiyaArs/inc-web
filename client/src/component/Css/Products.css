@@ -1,0 +1,62 @@
+.mainPart{
+    background-color: #000000;
+    width: 100%;
+    padding: 20px;
+}
+
+.macButton{
+    width: 15px;
+    height: 15px;
+}
+
+.macWrapper {
+    margin-left: 15px;
+}
+
+.toolbar{
+    display: flex;
+    width: 100%;
+}
+
+.toolbar h5{
+    width: 100%;
+    text-align: center;
+}
+
+.carousel{
+    width: 100%;
+    margin: 80px 0;
+}
+
+.carousel img{
+    max-height: 429px;
+}
+
+.main-footer{
+    position: relative;
+}
+
+div.active > div:nth-child(1) > div:nth-child(2) {
+    justify-content: flex-start;
+}   
+
+.carousel-indicators li {
+    width:15px;
+    height:15px;
+    border-radius: 100%;
+}
+   
+.imagePositioner{
+    margin-left: 180px;
+}
+
+div.active > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > h3:nth-child(1) {
+    margin-bottom: 60px;
+}
+.carousel-indicators {
+    bottom:-85px;
+}
+
+.textwrapper{
+    margin-right: 180px;
+}

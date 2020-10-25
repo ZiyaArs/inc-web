@@ -1,0 +1,24 @@
+body{
+    background: #18004B url('/images/bg.svg') no-repeat;
+    background-size: cover;
+}
+
+
+.logoimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.logoimg img{
+    align-self: center;
+    max-width: 383px;
+}
+
+
+.mainwrapper h3{
+    color: #02A9F4;
+    margin-top: 50px;
+}

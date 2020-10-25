@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Lora', serif;
+}
+
+body{
+    background-color: #18004B !important;
+    color: #ffffff;
+}
+
+.contain{
+    margin: 2px 72px;
+    position: relative;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+}

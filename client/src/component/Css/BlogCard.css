@@ -1,0 +1,35 @@
+.blog{
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.imageHolder{
+    min-height: 200px;
+    width: 455px;
+    max-height: 200px;
+}   
+
+.blogContainer{
+    margin-left: 27px;
+}
+
+.blogContainer h1{
+    color: #02A9F4;
+    text-transform: capitalize;
+}
+
+.blogDivider {
+    position: relative;
+   }
+   
+
+.read{
+    right: 24px;
+    position: absolute;
+    bottom: 12px;
+}

@@ -1,0 +1,152 @@
+body{
+    color: #ffffff;
+    background-color: #000;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    color: #ffffff;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #B1B1B1;
+}
+.sidebar-wrapper a{
+    font-size: 2rem;
+}
+.sidebar-wrapper a:hover{
+    color: #680202;
+}
+
+
+#footer{
+    position: fixed;
+    float: left;
+    z-index: 100;
+    bottom: 0;
+    margin-left: 31px;
+}
+
+#sidebar-wrapper {
+    z-index: 1;
+    position: fixed;
+    height: 100%;
+    overflow: hidden;
+    background: #070707;
+    transition: all .5s;
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.active{
+    color: red;
+    text-decoration: underline;
+}
+
+#page-content-wrapper{
+    width: 100%;	
+    position: absolute;
+    padding:15px;
+    transition:all .5s;
+}
+
+#toggler{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    color: #ffffff;
+    z-index: 2;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+#page-content-wrapper{
+    position: absolute;
+    padding:15px;
+    transition:all .5s;
+  }
+
+#wrapper.menuHide #sidebar-wrapper{
+    width: 0 !important;
+}
+
+#wrapper.menuHide #page-content-wrapper{
+    margin-left: 200px;
+}
+
+img{
+    border-radius: 23px;
+    width: 100%;
+}
+
+.blog{
+    margin-top: 50px;
+    background-color: #1C1C1C;
+    padding: 15px;
+}
+
+.blog h3{
+    color: red;
+}
+
+.pagination{
+    position: fixed;
+    right: 15px;
+    bottom: 50px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.pagination ul li{
+    display: inline-block;
+    background: #151515;
+    padding: 10px 15px;
+}
+
+#articleTitle{
+    margin-top: 50px;
+    text-align: center;
+    color: red;
+}
+
+#articleBody{
+    margin-top: 50px;
+    font-size: 1.6rem;
+}
+
+#drawingContainer{
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+
+#drawingContainer img{
+    max-width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.ql-syntax{
+    border-radius: 3px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+input[type='text']{
+    width: 100%;
+    margin: 20px 0;
+    background-color: #111111;
+    border: #ffffff solid 1px;
+    color: #f4f4f4;
+    padding-left: 15px;
+}
+
+input[type='text']::placeholder{
+    color: #ffffff;
+}

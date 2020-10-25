@@ -1,0 +1,42 @@
+a{
+    font-size: 1.1rem;
+    margin-right: 21px;
+    color: #ffffff;
+}
+
+a:hover{
+    color: #40E0D0;
+    text-decoration: none;
+}
+
+.btn{
+    color: #000000;
+}
+
+.center{
+    align-items: center;
+}
+
+div.col:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+}
+#logo{
+    font-size: 2rem;
+}
+.navrow{
+    align-items: center;
+    margin-left: auto !important;
+}
+
+.navbar-toggler{
+    background-color: rgb(224,224,224);
+    outline: none;
+}
+
+.logo{
+    width: 5vh;
+    margin:0 auto;
+    display: flex;
+    border-radius: 50%;
+}

@@ -1,0 +1,22 @@
+.macWrapper{
+    display: flex
+}
+
+.macButton{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+
+#red{
+    background-color: #AD0000;
+}
+
+#yellow{
+    background-color: #B0A900;
+}
+
+#green{
+    background-color: #0FB600;
+}

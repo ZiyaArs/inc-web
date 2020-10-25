@@ -1,0 +1,22 @@
+.blogcontainer{
+    background-color: #fff;
+    width: 100%;
+    margin-top: 20px;
+    color: #000000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.blogcontainer img{
+    width: 100%;
+    min-width: 1295px;
+    max-height: 500px;
+    object-fit: cover
+}
+
+.articleWrapper h2{
+    text-align: center;
+}
+
+.articleWrapper{
+    padding: 30px 20%;
+}
